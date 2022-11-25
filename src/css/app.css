@@ -1,0 +1,191 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+body {
+    font-family: "Calibri",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.material-icons {
+    font-size: 20px!important;
+    vertical-align: text-top !important;
+}
+.navbar-nav .nav-item.active {
+    position: relative;
+}
+.navbar-nav .nav-item.active:after {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    border-bottom: solid 1px #fff;
+    content: '';
+    left: 10%;
+}
+.navbar-brand-shine {
+    background-color: #038203;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+.shine-slogan {
+    background-color: #2e8212;
+    font-size: 1.25rem;   
+}
+.bg-theme-dark {
+    background-color: #006400;
+}
+.btn-success-dark {
+    color: #fff;
+    background-color: #2a753a;
+    border-color: #19672b;
+}
+table.table-theme-dark {
+    border: solid 1px #006400;
+    font-weight: bold;
+}
+
+table.table-theme-dark.table-bordered td, table.table-theme-dark.table-bordered th {
+    border: solid 1px #092216!important;
+}
+table.table-theme-dark th{
+    background-color: #2962ff;
+    color: white;
+    font-size: 1.3rem;
+    vertical-align: middle;
+}
+table.table-theme-dark.table-bordered td {
+    background-color: #006f51; /** #ecf7fa;*/
+    color: white;
+    font-size: 14px;
+    vertical-align: middle;
+}
+table.table-theme-dark.table-bordered td span.cell {
+    background-color: white;
+    color: black;
+    padding: 2px 5px;
+}
+table.table-theme-dark.table-bordered tr:last-child td {
+    background-color: yellow;
+    color: black;
+}
+table.table-theme-dark.table-bordered td:last-child, 
+table.table-theme-dark.table-bordered tr:last-child td:last-child{
+    background-color: white;
+    color: black;
+}
+table.table-centered th{
+    text-align: center;
+}
+table.table-centered td{
+    text-align: center;
+}
+table.table-centered th.bg-orange{
+    background-color: rgb(255, 69, 0);
+}
+table.table-centered th.bg-black{
+    background-color: rgba(9, 8, 8, 0.66);
+}
+table.table-centered th.bg-blue{
+    background-color: #2962ff;
+}
+table.table-centered th.bg-yellow{
+    background-color: yellow;
+}
+.card.card-theme-dark .card-header {
+    background-color: #006400;
+    color: white;
+    font-size: 30px;
+}
+.chart-container {
+    height: 450px;
+    background-color: #3b38d1;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.budget-container {
+    width: 800px;
+}
+.table th {
+    padding: 0.3rem;
+}
+.table td {
+    padding: 0.2rem;
+}
+.overflow-x-scroll {
+    overflow-y: scroll;
+}
+.fs-2 {
+    font-size: 1.2rem;
+}
+.fs-3 {
+    font-size: 1.3rem;
+}
+.fs-4 {
+    font-size: 1.4rem;
+}
+.fs-5 {
+    font-size: 1.5rem;
+}
+.text-bold {
+    font-weight: bold;
+}
+/**debt page**/
+.debt-chart-container {
+    height: 210px;
+    padding: 15px;
+    background: rgb(237,241,226);
+    background: -moz-radial-gradient(circle, rgba(237,241,226,1) 0%, rgba(200,252,70,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(237,241,226,1) 0%, rgba(200,252,70,1) 100%);
+    background: radial-gradient(circle, rgba(237,241,226,1) 0%, rgba(200,252,70,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#edf1e2",endColorstr="#c8fc46",GradientType=1);
+}
+
+table.table-theme-light {
+    font-size: 13;
+    border: solid 1px #006400;
+}
+table.table-theme-light th {
+    background-color: #295FFF;
+    color: white;
+    font-size: 1.2rem;
+    border: solid 1px #092216;
+}
+table.table-theme-light td {
+    background-color: yellow;
+    color: black;
+    border: solid 1px #092216;
+    font-size: 14px;
+}
+table.table-theme-light td:last-child, 
+table.table-theme-light tr:last-child td:last-child{
+    background-color: white;
+    color: black;
+}
+
+.btn-tiny {
+    padding: .10rem .10rem;
+}
+table.table-theme-dark.table-bordered td.border-right-white {
+    border-right: solid 1px white!important;
+} 
+table.table-theme-dark.table-bordered td.border-left-white {
+    border-left: solid 1px white!important;
+}
+
+.table-stock {
+    font-weight: bold;
+}
+.table-stock thead th {
+    background-color: #2962ff;
+    color: white;
+    font-size: 1.4rem;
+}
+.table-stock td.heading {
+    background-color: yellow;
+}
+.row-editing {
+    width: 115px;
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: white;
+    color: inherit;
+    border-left: solid 3px #006400;
+}

@@ -1,0 +1,36 @@
+.qr_code {
+    border: 1px solid #d3cece;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 15px;
+    box-shadow: 2px 2px 2p #d3cece;
+}
+.qr_code img {
+    width: 100%;
+}
+.qr_code button {
+    margin: 10px 10px;
+    float: right;
+}
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;    
+}
+
+
+.factor_authencate{
+    position: relative;
+    min-height: 80vh;    
+}
+.qr_txt p {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+}

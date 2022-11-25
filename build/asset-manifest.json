@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "https://shines-budget-dividend-retirement-calculator.com/static/css/main.1d839ffc.css",
+    "main.js": "https://shines-budget-dividend-retirement-calculator.com/static/js/main.a4d9f450.js",
+    "static/js/787.cda612ba.chunk.js": "https://shines-budget-dividend-retirement-calculator.com/static/js/787.cda612ba.chunk.js",
+    "index.html": "https://shines-budget-dividend-retirement-calculator.com/index.html",
+    "main.1d839ffc.css.map": "https://shines-budget-dividend-retirement-calculator.com/static/css/main.1d839ffc.css.map",
+    "main.a4d9f450.js.map": "https://shines-budget-dividend-retirement-calculator.com/static/js/main.a4d9f450.js.map",
+    "787.cda612ba.chunk.js.map": "https://shines-budget-dividend-retirement-calculator.com/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d839ffc.css",
+    "static/js/main.a4d9f450.js"
+  ]
+}
